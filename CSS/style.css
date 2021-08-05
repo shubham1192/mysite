@@ -1,0 +1,152 @@
+#title
+{
+    background-color: #253C78;
+    color: #fff;
+}
+#moon,#sun
+{
+    width: 16%;
+}
+#moon
+{
+    float: right;
+}
+.container-fluid
+{
+    padding:3% 4% 4%;
+}
+.row h1, p
+{
+    text-align: center;
+
+}
+#title h1
+{
+    font-size: 6.875rem;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    margin-top: -3%;
+    margin-bottom: -2%;
+}
+#title p
+{
+    font-size: 2.4375rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.row
+{
+    text-align: center;
+}
+#earth
+{
+    width: 22%;
+}
+#sat1
+{
+    position: absolute;
+    width: 10%;
+    right: 15%;
+    top: 14%;
+    transform: rotate(28deg);
+}
+#sat2
+{
+    position: absolute;
+    width: 10%;
+    left: 16%;
+    top: 32%;
+    transform: rotate(207deg);
+}
+.intro img
+{
+    width: 5%;
+    position: absolute;
+}
+#mer
+{    left: 14%;
+    bottom: 5%;
+}
+
+#mars
+{
+    right: 10%;
+    bottom: -7%;
+}
+@media (max-width:1073px) {
+    #mars
+    {
+        right: 7%;
+        bottom: 21%;
+        width: 7%;
+
+    }
+    #mer
+    {
+        left: 7%;
+        bottom: 11%;
+        width: 7%;
+    }
+    #title h1
+    {
+        font-size: 5.875rem;
+    }
+    #title p
+    {
+        font-size: 2rem;
+    }
+    }
+    
+@media (max-width:823px) {
+    #title h1
+    {
+        font-size: 4.875rem;
+    }
+    #title p
+    {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width:670px) {
+    #title h1
+    {
+        font-size: 3.5rem;
+        margin-top: 1%;
+    }
+    #title p
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:428px) {
+    #title h1
+    {
+        font-size: 3rem;
+        margin-top: 3%;
+    }
+    #title p
+    {
+        font-size: 1rem;
+    }
+    .container-fluid {
+        padding: 3% 5% 4%;
+    }
+    #earth
+    {
+        width: 30%;
+    }
+    #mer
+    {
+        left: 4%;
+        bottom: 4%;
+        width: 9%;
+    }
+    #mars
+    {
+        right: 4%;
+        bottom: 4%;
+        width: 9%;
+    }
+}
